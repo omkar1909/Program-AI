@@ -1,0 +1,17 @@
+<apex:page controller="addition">
+<apex:form >
+<apex:pageBlock >
+<apex:outputLabel >Number 1</apex:outputLabel>
+    <apex:inputText value="{!number1}"/><br/><br/>
+<apex:outputLabel >Number 2</apex:outputLabel>
+    <apex:inputText value="{!number2}"/><br/><br/>
+    <apex:commandButton value="Addition" action="{!addition}"/><br/><br/>
+    <apex:commandButton value="Subtraction" action="{!subtraction}"/><br/><br/>
+    <apex:commandButton value="Multiplication" action="{!multiplication}"/><br/><br/>
+    <apex:commandButton value="Division" action="{!division}"/><br/><br/>
+
+    <apex:outputLabel >Output: </apex:outputLabel>
+    <apex:outputLabel >{!result}</apex:outputLabel>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

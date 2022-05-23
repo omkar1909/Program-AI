@@ -1,0 +1,16 @@
+array = [1,2,3,4,5]
+num = int(input())
+
+found = False
+index = 0
+for x in range(0,len(array)):
+    if num == array[x]:
+        found = True
+        index = x
+        break
+
+if(found):
+    print("Found in array at index ", index,".")
+else:
+    print("Not found in array.")
+    

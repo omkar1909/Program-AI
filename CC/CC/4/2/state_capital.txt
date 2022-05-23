@@ -1,0 +1,24 @@
+public class state_capital {
+    public String state{get;set;}
+    public String result{get;set;}
+    
+    public void capital(){
+        Map<String, String> store = new Map<String, String>();
+        store.put('andhra pradesh','hyderabad');
+        store.put('arunachar pradesh','itnagar');
+        store.put('arunachar pradesh','itnagar');
+        store.put('assam','dispur');
+        store.put('bihar','patnar');
+        store.put('chhatisgarh','raipur');
+        store.put('goa','panaji');
+        store.put('gujarat','gandhinagar');
+        store.put('haryana','chandigarh');
+        store.put('karnataka','bengaluru');
+        store.put('maharashtra','mumbai');
+
+
+        result = store.get(state);
+
+    }
+ 
+    }

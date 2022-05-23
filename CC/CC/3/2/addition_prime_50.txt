@@ -1,0 +1,32 @@
+public class addition_prime_50 {
+    
+    public static Boolean isPrime(Integer num){
+        if(num<=1){
+            return False;
+        }
+        
+        for(Integer i = 2; i<=num-1; i++){
+            if(math.mod(num, i) == 0){
+                return False;
+            }
+        }
+        return True;
+    }
+    
+    public static void addition_prime_50(){
+        Integer sum = 0;
+        Integer count = 0;
+        Integer num = 0;
+        
+        while(count<50){
+            if(isPrime(num) == True){
+                count+=1;
+                sum+=num;
+            }
+            num+=1;
+        }
+        
+        System.debug(sum);
+    }
+
+}

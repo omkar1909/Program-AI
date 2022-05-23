@@ -1,0 +1,11 @@
+public class addition_50 {
+    public static void addition_50(){
+        Integer sum = 0;
+        Integer start = 0;
+        for(start=0; start<=50; start++){
+            sum+=start;
+        }
+        System.debug(sum);
+    }
+
+}
